@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: bac1f641629b36d48bc181c417618ca1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eva237x284_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 568
+        width: 237
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1914974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f68d0219b6c82844bdf0e02ebab1382
+      internalID: 1626284539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eva237x284_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 568
+        width: 237
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1914974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff64655bdf46e04eb5ecab241040cce
+      internalID: 641995017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eva237x284_2
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 568
+        width: 237
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1914974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acd67993167ebc48817f092fc92a39d
+      internalID: 1006334802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eva237x284_3
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 568
+        width: 237
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1914974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a74b487cd472f43be19e53fbe8ee79
+      internalID: 296891264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eva237x284_4
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 568
+        width: 237
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1914974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192febca369b7e94a85d31388be33e72
+      internalID: -1927785852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eva237x284_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284
+        width: 237
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1914974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a8aa86e1c39fa449a1c609d6f1fdec
+      internalID: -1903540012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eva237x284_6
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 284
+        width: 237
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1914974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235212801fbdee44597f476f2ec35d0e
+      internalID: -1662777920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eva237x284_7
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 284
+        width: 237
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1914974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3647bb7555dbc4688d2fd0a2d6f6f1
+      internalID: -1257856853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eva237x284_8
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 284
+        width: 237
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1914974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf877cdd1b2edd24780e4cd0c90d9c38
+      internalID: -1487919647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eva237x284_9
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 284
+        width: 237
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1914974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b641c22704693b44b4cbdbb4a3486d9
+      internalID: 183190576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eva237x284_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 237
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1914974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d79d389fe1d5643b5dc22dc5d65be9
+      internalID: 934344003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eva237x284_11
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 237
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1914974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21632914d938c414e947444e6b580907
+      internalID: 739885863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eva237x284_12
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 237
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1914974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7bed90dec84564da28b87d71ce0aab
+      internalID: 1534152747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eva237x284_13
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 0
+        width: 237
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1914974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352fb8fc097043a418642e223b31716d
+      internalID: 1638537473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      eva237x284_5: -1903540012
+      eva237x284_2: 1006334802
+      eva237x284_12: 1534152747
+      eva237x284_7: -1257856853
+      eva237x284_9: 183190576
+      eva237x284_8: -1487919647
+      eva237x284_1: 641995017
+      eva237x284_6: -1662777920
+      eva237x284_13: 1638537473
+      eva237x284_0: 1626284539
+      eva237x284_3: 296891264
+      eva237x284_4: -1927785852
+      eva237x284_10: 934344003
+      eva237x284_11: 739885863
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2813794090200757930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 323889453788410085}
+  - component: {fileID: 4329199317309022681}
+  - component: {fileID: 3109582202963692272}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &323889453788410085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2813794090200757930}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.0066245105}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4329199317309022681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2813794090200757930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fa711f906a72c40a2c9c9433917aa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ac:
+  - {fileID: 8300000, guid: 6c8bbd64e3f449d448ad28c02748a8b5, type: 3}
+  - {fileID: 8300000, guid: e412ee8246ecd354dbd39810d9986b43, type: 3}
+  - {fileID: 8300000, guid: 9f4f792769679d9458a0156f08476ff5, type: 3}
+  - {fileID: 8300000, guid: 281825c487d7a004dac3cc4628ed4377, type: 3}
+  - {fileID: 8300000, guid: 86f9e76688b02de43bac79ed4ab05343, type: 3}
+  - {fileID: 8300000, guid: 94690885f4335ed48830c87a4307d2da, type: 3}
+  - {fileID: 8300000, guid: 01ba59d990bdcf249866ceea5ca075c5, type: 3}
+  - {fileID: 8300000, guid: 8bdf958149207b94aa797ebca8a2660a, type: 3}
+  - {fileID: 8300000, guid: 9d48653c64d085d47ac19a5c46576f94, type: 3}
+  - {fileID: 8300000, guid: aa3f0a6c41144484186d27ccc0638183, type: 3}
+  - {fileID: 8300000, guid: eb11e3ad4b8969b4e8abc58b8dd3c7c0, type: 3}
+  - {fileID: 8300000, guid: d4245a61da0767643b0c7ea50f517dc0, type: 3}
+  - {fileID: 8300000, guid: 6a4cc5fc49a1f0f41a8958263dbc13da, type: 3}
+  allRole: []
+  headImage:
+  - Key: 
+    spr: {fileID: 21300000, guid: f223483fb203201428a6092be954713d, type: 3}
+  - Key: Ice
+    spr: {fileID: 21300000, guid: 417215ac2e4793f40a1044ba019c82ec, type: 3}
+  - Key: Fire
+    spr: {fileID: 21300000, guid: e1a231d40da35fd4eabc5d4e8433ff21, type: 3}
+  - Key: Thunder
+    spr: {fileID: 21300000, guid: f324e01653e6ea84caca5370549db22f, type: 3}
+  - Key: Water
+    spr: {fileID: 21300000, guid: 6e783ffffd044fd489a17ea814de204e, type: 3}
+  - Key: Hellagur
+    spr: {fileID: 21300000, guid: 0ea2768c7c44bf6459620bc3fcd58d58, type: 3}
+  missile:
+  - Key: SnowBall
+    Effect: {fileID: 3469558467804861787, guid: 9212e99730fad35499a904155dadd623, type: 3}
+  - Key: SnowBall
+    Effect: {fileID: 3469558467804861787, guid: 9212e99730fad35499a904155dadd623, type: 3}
+  effects:
+  - Key: PinkAttacaked
+    Effect: {fileID: 9094041076523749461, guid: 28d8015a0223f264dbb599d5e730aa37, type: 3}
+  - Key: Null
+    Effect: {fileID: 8314031319363131858, guid: 66dce3900773ca843bb9dbb335214f3f, type: 3}
+  - Key: Thunder
+    Effect: {fileID: 1256029775600137643, guid: 006bb0705b53d434aadbd4664c6eccb5, type: 3}
+  - Key: Thunders
+    Effect: {fileID: 4645416045549151649, guid: 05bfe834eebd26f40bc0cd8e22f2f460, type: 3}
+  - Key: ThundExp
+    Effect: {fileID: 5035952188793766354, guid: 2e17bbce5ad07b941a71bb5d73233464, type: 3}
+  - Key: Evaporation
+    Effect: {fileID: 9142507504364039849, guid: 10fff41fbc1df0e49877824bba589b67, type: 3}
+  - Key: Freeze
+    Effect: {fileID: 3049075223919183446, guid: 6bf9f968bf4fc624c990d43d8cf3b000, type: 3}
+  - Key: MagDown
+    Effect: {fileID: 5563731169896719165, guid: 3deaf4b90a9deaa4da7ca06fb9de7737, type: 3}
+  - Key: PhyDown
+    Effect: {fileID: 5563731169896719165, guid: 983248d3dada0f2468a1e24d045a81a2, type: 3}
+  - Key: Spawn
+    Effect: {fileID: 8296809179637802057, guid: 77441f5e3bfcfe14cb8d2a7615131847, type: 3}
+  - Key: ElementShowWater
+    Effect: {fileID: 3606648357181496564, guid: d096d49608d549645b305cf6f05b5dde, type: 3}
+  - Key: ElementShowIce
+    Effect: {fileID: 2148950197173357605, guid: 799e13e93c8539441b48d53f7930874d, type: 3}
+  - Key: ElementShowFire
+    Effect: {fileID: 1822987842491134662, guid: 61fec1c055a62154b87e6a2b3f153162, type: 3}
+  - Key: ElementShowThunder
+    Effect: {fileID: 5069934175016662195, guid: b3d5c2b6c46d713498cd2eebe6c620f3, type: 3}
+  - Key: gt
+    Effect: {fileID: 6883132224848854671, guid: 9d5ca1ec20f17774a9d2f9456fa9ca50, type: 3}
+  - Key: FireBoom
+    Effect: {fileID: 5035952188793766354, guid: 2e17bbce5ad07b941a71bb5d73233464, type: 3}
+  - Key: chongjibo
+    Effect: {fileID: 5072550268063660391, guid: a124580f39f42f142a39a9d4717e18ff, type: 3}
+  - Key: RingFire
+    Effect: {fileID: 440245691233014347, guid: 5c6181ee8ab3c6c449227190d358ec95, type: 3}
+  - Key: RingIce
+    Effect: {fileID: 440245691233014347, guid: 72c741c8627b65b4b9d7b867f2be7f13, type: 3}
+  - Key: RingWater
+    Effect: {fileID: 440245691233014347, guid: 49502e87e45725d4da1c8f49319f1a34, type: 3}
+  - Key: RingThunder
+    Effect: {fileID: 440245691233014347, guid: 4925b723770187d489a551cd1d5cd0a7, type: 3}
+  - Key: FireShoot
+    Effect: {fileID: 5667161058083335737, guid: 009a576ee473d9442823d6fa755ddfcb, type: 3}
+  - Key: IceShoot
+    Effect: {fileID: 3469558467804861787, guid: 9212e99730fad35499a904155dadd623, type: 3}
+  - Key: ThunderShoot
+    Effect: {fileID: 3214363781232770949, guid: d78ff3b921e812a44b236d6cd8f76281, type: 3}
+  - Key: WaterShoot
+    Effect: {fileID: 3564938941833543328, guid: 861336ae72ade944996ca744d9b67361, type: 3}
+  - Key: suc
+    Effect: {fileID: 4702321613940268753, guid: 9e8b5311c1545f94eb8487d3e097f12d, type: 3}
+  roles:
+  - Key: WaterSlime
+    Effect: {fileID: 8605671993982907938, guid: 5977b73f87802db49aef3483623cd321, type: 3}
+  - Key: FireSlime
+    Effect: {fileID: 7222491436479499019, guid: cded52c604f35504b962289eb34ad651, type: 3}
+  - Key: ThunderSlime
+    Effect: {fileID: 6282476881425176803, guid: 4e2f6ed0ef9df094893383fdd7cb532a, type: 3}
+  - Key: IceSlime
+    Effect: {fileID: 7881414643259673703, guid: 4edf38b3e2c84d84191e6a2e207f512c, type: 3}
+  - Key: Cat
+    Effect: {fileID: 2511852024447833617, guid: bc02efdc4e65fa74f8659ca61e7a1210, type: 3}
+  - Key: Shooter
+    Effect: {fileID: 1895915561217262022, guid: e043062cdeb76c14eb12d00f517daab5, type: 3}
+  - Key: Float
+    Effect: {fileID: 5874110668687767949, guid: db253164eaf02cd488ba23498cab429c, type: 3}
+  - Key: sojo
+    Effect: {fileID: 15610263298509606, guid: 671ef58d31cb4ff408961685c636a276, type: 3}
+  otherEffect:
+  - Key: ClickEffect
+    Effect: {fileID: 8708999649001003187, guid: ddb657280f8d4ea4c985fd236a9de43f, type: 3}
+  - Key: MoveAttackEffect
+    Effect: {fileID: 4724839716812599197, guid: 6f9c998660ad12a4fb285df1b80b8b5d, type: 3}
+  - Key: ColorStance
+    Effect: {fileID: 7030369437524436752, guid: cc16726b035f94040b88fc5b1eb46a0f, type: 3}
+  - Key: Cube
+    Effect: {fileID: 9163330526048015212, guid: b538eb8a744b981499c288a0ce89b71f, type: 3}
+  - Key: HitSuccess
+    Effect: {fileID: 6745233686175004541, guid: 6bb7885f7355f484b99db9cc635570e4, type: 3}
+  - Key: Music
+    Effect: {fileID: 1037685547688522125, guid: c9c9397b7b9c4104d9136b0366f75718, type: 3}
+  - Key: Shower
+    Effect: {fileID: 1884105291221167156, guid: d00a753b0c3f6404ebd2b70c23131f3d, type: 3}
+  - Key: Spawner
+    Effect: {fileID: 532124347003777881, guid: b0a066c5acce49946b944e6c446ab9d5, type: 3}
+  config:
+    PhyDamageColor: {r: 0.9811321, g: 0.24528302, b: 0.24528302, a: 1}
+    MagDamageColor: {r: 0.9811321, g: 0.54147387, b: 0.54147387, a: 0}
+    PhyCritDamageColor: {r: 0.49056602, g: 0.35866857, b: 0.35866857, a: 0}
+    MagCritDamageColor: {r: 0.33046722, g: 0.07048772, b: 0.4528302, a: 0}
+    TrueDamageColor: {r: 0, g: 0, b: 0, a: 0}
+    TrueCritDamageColor: {r: 0, g: 0, b: 0, a: 0}
+    FontShadowMoving: {x: 0.03, y: -0.03}
+    CharacterControllerMode: 1
+    EliteSpanProbility: 5
+    ShopSpanProbility: 5
+    MonseterSpanProbility: 5
+  gos:
+  - {fileID: 3146737397879327884, guid: 2221627973422cb46865cc9c6551754b, type: 3}
+--- !u!114 &3109582202963692272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2813794090200757930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b387f3ffd2f664242883420bffab9aac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteMaps:
+  - {fileID: 21300000, guid: def7f602597f49c4ab9df89a4af02fe6, type: 3}
+  - {fileID: 21300000, guid: c93a332a3f1d3c34e8b8205215177f22, type: 3}
+  - {fileID: 21300000, guid: f801c790f54e0824495bddf59535f140, type: 3}
+  - {fileID: 21300000, guid: 900573f81928bb94d84f9ad762b0536d, type: 3}
+  - {fileID: 21300000, guid: 1161799293fae6f4fa4d6757fdd45eb0, type: 3}
+  - {fileID: 21300000, guid: 3f96fa4969440b54795e3fb2adf49e37, type: 3}
+  - {fileID: 21300000, guid: 78e7858e4de53c148be87a0d1cf9beb1, type: 3}
+  - {fileID: 21300000, guid: 2ea856ae0a8c38742ac8ae7d7acabed3, type: 3}
+  - {fileID: 21300000, guid: f8e0e6b306a35cb4e89063e3d00505aa, type: 3}
+  - {fileID: 21300000, guid: c827c07204fbeef4c9df94e83d789c64, type: 3}
+  - {fileID: 21300000, guid: f62f13ccab6d31d4ea8f56b841794113, type: 3}
+  - {fileID: 21300000, guid: ead6bd2d096e7e94891a146ccff6c769, type: 3}
+  - {fileID: 21300000, guid: 294d319b72fe48f4485eed953b8c6322, type: 3}
+  - {fileID: 21300000, guid: 329ff8c1ed52df84eabfc2da1870b35c, type: 3}
+  - {fileID: 21300000, guid: a640af3134bbfc941937abd93760a170, type: 3}
+  - {fileID: 21300000, guid: 7b67d7e610c96ef40af262695be394e1, type: 3}
+  - {fileID: 21300000, guid: 997464762902bbb4b97f27751da75ed1, type: 3}
+  - {fileID: 21300000, guid: ba64b289997a33a4fbb4f5210810eec7, type: 3}
+  - {fileID: 21300000, guid: e15da1a38f6b3f04e8cbeb31bfa55d94, type: 3}
+  - {fileID: 21300000, guid: 85048e9b8d4bee04484e7a1b8a1c3f98, type: 3}
+  - {fileID: 21300000, guid: c4e59c270b286c04db0ed71ad387d521, type: 3}
+  - {fileID: 21300000, guid: b1cbb69a6ba32b84eb680c86392aa455, type: 3}
+  - {fileID: 21300000, guid: cec9380cf43146d48abb03189f101825, type: 3}
+  - {fileID: 21300000, guid: f51794dd7c6db83468a7979a76886c38, type: 3}
+  - {fileID: 21300000, guid: 432c65ba8125beb46991c9218d7836f7, type: 3}
+  - {fileID: 21300000, guid: f9c851d08e4abc94a87c04c9cada801f, type: 3}
+  - {fileID: 21300000, guid: 698cfa1594e5cc5439a26c9b23bb23b7, type: 3}
+  - {fileID: 21300000, guid: 3b11b0ed51e56054e884bed6649b331c, type: 3}
+  - {fileID: 21300000, guid: 2d84e78326a656b46b38dd3b06e4c9dc, type: 3}
+  - {fileID: 21300000, guid: fbf70f32fded9b440b75ed23f2a6dc3b, type: 3}
+  - {fileID: 21300000, guid: e8f8b6ec5837e87478dc866474cb5f03, type: 3}
+  - {fileID: 21300000, guid: 2aedf32ba31904c47826a50e6ee964a4, type: 3}
+  - {fileID: 21300000, guid: dc9079269ed5d6d4dafdf1c3c0d7bb5a, type: 3}
+  - {fileID: 21300000, guid: 041a8b14b058de14e99cdb6d3d0b1ded, type: 3}
+  - {fileID: 21300000, guid: 7e408c47c95128941b3880c17b34ad37, type: 3}
+  - {fileID: 21300000, guid: 6432b1ff313975743a7164f4ec303b43, type: 3}
+  - {fileID: 21300000, guid: 3df273c5f743c354c9395a66e4f6e958, type: 3}
+  - {fileID: 21300000, guid: 4bbe3377ec1893544b6a36952b04b7d8, type: 3}
+  - {fileID: 21300000, guid: 9058b09fc3f76f64f84363e8710510e0, type: 3}
+  - {fileID: 21300000, guid: 49221608da634b84db77f9cb988f0cac, type: 3}
+  - {fileID: 21300000, guid: 1d965969e9178b148a386cc14650ab72, type: 3}
+  - {fileID: 21300000, guid: 2f301a07a176e7f45b672b33132c8385, type: 3}
+  virtualCamera: {fileID: 0}
+  cameras: {fileID: 0}
+  canvas: {fileID: 0}
+  ui:
+  - Key: DamageText
+    Effect: {fileID: 8759544885813544608, guid: 4d4234ed565e95b43bf467210bb80630, type: 3}
+  - Key: HpShow
+    Effect: {fileID: 398236785970466179, guid: 32b15606ed7107240b644a0f9096f67c, type: 3}
+  - Key: RKPanel
+    Effect: {fileID: 4740054039259833605, guid: 419d99da3bcbdfa4f876bb97562e3a1a, type: 3}
+  - Key: MapperItem
+    Effect: {fileID: 9106805971783822687, guid: 56d1a5b206673304fa7345f969448bd9, type: 3}
+  ClickB: {fileID: 0}
+  imgs: []
+  txt: []
+  IsDamageShow: 0
+  BlessingShower: {fileID: 0}
+  seleces: []

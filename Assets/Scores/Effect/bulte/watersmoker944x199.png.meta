@@ -1,0 +1,452 @@
+fileFormatVersion: 2
+guid: ab2f55b589b87bf4ca4ae55bf2956ba1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: watersmoker944x199_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 796
+        width: 944
+        height: 199
+      alignment: 9
+      pivot: {x: 0.03968252, y: 0.4832669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b7485e53a25ed418e1d624981e4e8f
+      internalID: 1405458678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: watersmoker944x199_1
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 796
+        width: 944
+        height: 199
+      alignment: 9
+      pivot: {x: 0.03968252, y: 0.4832669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c378b60da19e1344a88ff65e180b7de
+      internalID: -1074836905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: watersmoker944x199_2
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 796
+        width: 944
+        height: 199
+      alignment: 9
+      pivot: {x: 0.03968252, y: 0.4832669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfceccfc79fe9f94e9184154f68edf2b
+      internalID: 945986402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: watersmoker944x199_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 597
+        width: 944
+        height: 199
+      alignment: 9
+      pivot: {x: 0.03968252, y: 0.4832669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6955258e694a54cb914647018343c5
+      internalID: 913274768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: watersmoker944x199_4
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 597
+        width: 944
+        height: 199
+      alignment: 9
+      pivot: {x: 0.03968252, y: 0.4832669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45051d8ba859c84449233cc8b8054b20
+      internalID: 347158257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: watersmoker944x199_5
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 597
+        width: 944
+        height: 199
+      alignment: 9
+      pivot: {x: 0.03968252, y: 0.4832669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912c2cd9cad45d142b57e714534b02b5
+      internalID: 458273166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: watersmoker944x199_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 398
+        width: 944
+        height: 199
+      alignment: 9
+      pivot: {x: 0.03968252, y: 0.4832669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabebc95a6ae7d047ac86d2296f6d3ad
+      internalID: 417816268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: watersmoker944x199_7
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 398
+        width: 944
+        height: 199
+      alignment: 9
+      pivot: {x: 0.03968252, y: 0.4832669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4573bef519ffad2449426b919a6f8b7a
+      internalID: 953653032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: watersmoker944x199_8
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 398
+        width: 944
+        height: 199
+      alignment: 9
+      pivot: {x: 0.03968252, y: 0.4832669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a20a7032a83a08498314ace8029686b
+      internalID: -52197593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: watersmoker944x199_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 199
+        width: 944
+        height: 199
+      alignment: 9
+      pivot: {x: 0.03968252, y: 0.4832669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5613fdf475a88e40ac50334db4e6567
+      internalID: 992640965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: watersmoker944x199_10
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 199
+        width: 944
+        height: 199
+      alignment: 9
+      pivot: {x: 0.03968252, y: 0.4832669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f91a4d11423ed4485d603166229831
+      internalID: -411535689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: watersmoker944x199_11
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 199
+        width: 944
+        height: 199
+      alignment: 9
+      pivot: {x: 0.03968252, y: 0.4832669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e6e681c427bb843af613de44777e84
+      internalID: -1827682380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: watersmoker944x199_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 944
+        height: 199
+      alignment: 9
+      pivot: {x: 0.03968252, y: 0.4832669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e792114aad0267459084c10fd3dbd9d
+      internalID: -1969665422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: watersmoker944x199_13
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 0
+        width: 944
+        height: 199
+      alignment: 9
+      pivot: {x: 0.03968252, y: 0.4832669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008746dd35a6b244c80053686bd02b46
+      internalID: 1931219145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: watersmoker944x199_14
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 0
+        width: 944
+        height: 199
+      alignment: 9
+      pivot: {x: 0.03968252, y: 0.4832669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90969e1c6ecdec94b85dd6b984a2f363
+      internalID: 592252548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      watersmoker944x199_7: 953653032
+      watersmoker944x199_6: 417816268
+      watersmoker944x199_8: -52197593
+      watersmoker944x199_4: 347158257
+      watersmoker944x199_12: -1969665422
+      watersmoker944x199_10: -411535689
+      watersmoker944x199_3: 913274768
+      watersmoker944x199_9: 992640965
+      watersmoker944x199_14: 592252548
+      watersmoker944x199_5: 458273166
+      watersmoker944x199_1: -1074836905
+      watersmoker944x199_2: 945986402
+      watersmoker944x199_13: 1931219145
+      watersmoker944x199_11: -1827682380
+      watersmoker944x199_0: 1405458678
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
